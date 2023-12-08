@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manual de Usuario</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body {
+            font-family: "Source Sans Pro", Noto Sans HK ;
+            margin: 20px;
+            background-color:rgba(0, 70, 78, 0.4);
+        }
+
+        .centro{
+            text-align: center;
+        }
+
+        .borde{
+            padding: 35px;
+            border: solid 2px ;
+            margin: auto;
+            width: 760px;
+            background-color: white;
+        }
+        h1 {
+            font-family: "Montserrat";
+            font-size: 28px;
+            margin-bottom: 12px;
+        }
+
+        h2 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 16px;
+            margin-bottom: 12px;
+        }
+
+        ul{
+            margin-left: 30px;
+        }
+
+        span{
+            font-family:"Noto Sans HK";
+           font-weight: bold;
+        }
+
+        .imagenPestañas{
+            width: 600px;
+        }
+
+        a{
+            color: #087021;
+        }
+
+        .enlaces{
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="centro">
+        <img src="\img\andalucia2 (3).png">
+        <h1>Manual de Usuario de Aplicación para comandos</h1>
+    </div>
+    <div class="borde">
+        <h2>Introducción</h2>
+        <p>Bienvenido al manual de usuario. Este manual proporciona información detallada sobre cómo utilizar la aplicación.</p>
+
+        <h2>Contenido</h2>
+        <ul >
+            <li class="enlaces"><a href="#seccion1">Sección 1:  Cómo Empezar</a></li>
+            <li class="enlaces"><a href="#seccion2">Sección 2:  Funcionalidades Principales</a></li>
+            <li class="enlaces"><a href="#seccion3">Sección 3:  ¿Como guardar Los comandos?</a></li>
+        </ul>
+        <h2 id="seccion1">Sección 1: Cómo empezar</h2>
+        <p>Con está aplicación puedes hacer 5 tipos de acciones
+            <ul>
+                <li>
+                    <img src="img\url.png">
+                    <br>
+                En el primer apartado se encuentra la opción de introducir una URL ,<br>
+                Si diesemos al botón de <span>EJECUTAR</span>, realizará los comandos que la aplicación realiza que son:
+                    <ul>
+                        <li>- PING</li> 
+                        <li>- CURL</li>
+                        <li>- TRACERT</li>
+                        <li>- NSLOOKUP</li>
+                    </ul>
+                </li>
+                <br>
+                <li>Una vez terminado la ejecución de todos los comandos en las pestañas que se encuentran debajo volcará todos los datos que deberian de salir tras realizarse dichos comandos</li>
+                <br>
+                 <img class="img\pestañas.png">
+                <br>
+                <li>Para mostrar la página introducida en el explorador de internet , con dar al botón Mostrar página seria suficiente </li>
+                <br>
+                   <img src="img\mostrar.png">
+                <br>
+            </ul>
+        </p>
+        <h2 id="seccion2">Sección 2: Funcionalidades Principales</h2>
+         <ul>
+                        <li>
+                            <p>Al Realizar:</p>
+                            <p>
+                                <span>- Ping </span>, es el comando TCP/IP principal que se usa para solucionar problemas de conectividad, disponibilidad y resolución de nombres
+                            </p>
+                            <p>
+                                Es una herramienta de diagnóstico que permite hacer una verificación del estado de una determinada conexión o host local.
+                            </p>
+                        </li> 
+                        <li>
+                            <p>
+                                <span>- Curl </span>, permite al usuario realizar solicitudes a un servidor y recuperar datos desde la línea de comandos. Al usar CURL, cualquier usuario puede, entre otras acciones:
+                            </p>
+                            <ul>
+                                <li>Obtener el contenido de una página web.</li>
+                                <br>
+                                <p>
+                                    <span>
+                                        En nuestro caso estas 4 opciones las podriamos realizar en las siguientes actualizaciones
+                                    </span>
+                                </p>
+                                <li>Subir o descargar archivos.</li>
+                                <li>Enviar datos a un formulario.</li>
+                                <li>Autenticarse en servicios web.</li>
+                                <li>Realizar comprobaciones de estado de páginas web.</li>
+                            </ul>
+                        </li>
+                        <li>
+                        	<p>
+                        		<span>- TRACERT</span> , es una utilidad de línea de comandos que se usa para determinar la ruta que toma un paquete de protocolo de Internet (IP) para alcanzar su destino
+                        	</p>
+                        </li>
+                        <li>
+                        	<p><span>- NSLOOKUP</span> , es una herramienta de línea de comandos muy práctica y fácil de usar, cuya función básica es encontrar la dirección IP de un equipo determinado o realizar una búsqueda DNS inversa
+                       		</p>
+                    	</li>
+                    </ul>
+        
+
+        <h2 id="seccion3">Sección 3: ¿Cómo Guardar los comandos?</h2>
+        <p>
+        	Para guardar todos tus comando tendrás que darle a la opción de <span>File</span> , De ahí tienes 2 opciones de guardado , existe la posibilidad de guardar cada comando en un fichero cada uno o bien dando a <span>Save as</span> puedes guardar todo en un solo archivo o bien en <span>Save</span> que te dará la opción de guardar los distintos comandos , ping / curl / tracert / nslookup. cada vez que quieras guardar algo tendrás que elegir una ruta de guardado.
+        	te dejo unas imagenes para sea mas facil y intuitivo de ejecutar 
+        	<br>
+        	<img src="img\guardado.png">
+        </p>
+
+
+        <h2>Conclusión</h2>
+        <p>Gracias por utilizar nuestra Aplicación de Comandos de la junta de Andalucia. Esperamos que este manual te haya ayudado a familiarizarte con la aplicación y aprovechar al máximo sus características.</p>
+    </div>
+</body>
+</html>
